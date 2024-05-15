@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ChatGPT Query</title>
-<style>
-    body {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Query</title>
+    <style>
+      body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         background-color: #f0f0f0;
-    }
+      }
 
-    .container {
+      .container {
         max-width: 600px;
         margin: 20px auto;
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-    }
+      }
 
-    .chat-container {
+      .chat-container {
         list-style-type: none;
         margin: 0;
         padding: 0;
-    }
+      }
 
-    .chat-container li {
+      .chat-container li {
         background-color: #f1f1f1;
         margin: 10px 0;
         padding: 10px;
         border-radius: 10px;
         max-width: 70%;
-    }
+      }
 
-    .user-msg {
+      .user-msg {
         background-color: #b2d3ff;
         align-self: flex-end;
-    }
+      }
 
-    .query-form {
+      .query-form {
         margin-top: 20px;
-    }
+      }
 
-    .query-form label {
+      .query-form label {
         display: block;
         font-weight: bold;
         margin-bottom: 5px;
-    }
+      }
 
-    .query-form input[type="text"] {
+      .query-form input[type="text"] {
         width: calc(100% - 10px);
         padding: 8px;
         border-radius: 5px;
         border: 1px solid #ccc;
-    }
+      }
 
-    .query-form input[type="submit"] {
+      .query-form input[type="submit"] {
         margin-top: 10px;
         padding: 8px 20px;
         background-color: #007bff;
@@ -66,23 +66,23 @@
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
-    }
+      }
 
-    .query-form input[type="submit"]:hover {
+      .query-form input[type="submit"]:hover {
         background-color: #0056b3;
-    }
-</style>
-</head>
-<body>
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <ul class="chat-container">
-            <li class="bot-msg">Welcome! How can I assist you today?</li>
-        </ul>
-        <form class="query-form" method="post">
-            <label for="query">Ask me anything:</label>
-            <input type="text" id="query" name="query" autocomplete="off">
-            <input type="submit" value="Send">
-        </form>
+      <ul class="chat-container">
+        <li class="bot-msg">Welcome! How can I assist you today?</li>
+      </ul>
+      <form class="query-form" method="post">
+        <label for="query">Ask me anything:</label>
+        <input type="text" id="query" name="query" autocomplete="off" />
+        <input type="submit" value="Send" />
+      </form>
     </div>
-</body>
+  </body>
 </html>
